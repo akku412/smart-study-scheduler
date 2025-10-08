@@ -3,6 +3,7 @@
 
 
 An intelligent AI-based study scheduling system that helps students plan their study sessions efficiently using logic-driven algorithms.
+
 This project is a B.Tech Final Year Project showcasing full-stack development, AI rule-based planning, and data persistence.
 
 🧠 Key Highlights
@@ -18,12 +19,19 @@ This project is a B.Tech Final Year Project showcasing full-stack development, A
 🎨 Clean React UI: Simple and responsive dashboard for easy use.
 
 🧩 Tech Stack
+
 Layer	Technology
+
 Frontend	React 18+, Axios, CSS
+
 Backend	FastAPI (Python 3.12), SQLAlchemy, SQLite
+
 Server	Uvicorn
+
 AI Logic	Custom Python (no ML libraries)
+
 ⚙️ Installation & Setup
+
 🖥️ Backend Setup
 
 Open a terminal in the backend folder.
@@ -57,7 +65,9 @@ npm start
 
 
 Open http://localhost:3000
+
  in your browser.
+ 
 (Ensure the backend is running first.)
 
 📖 How It Works
@@ -73,6 +83,7 @@ Track Progress – Mark sessions completed or missed; AI adapts future plans.
 View Results – Clean UI with data saved in study_scheduler.db.
 
 🔢 Priority Formula
+
 Priority = (0.4 × Urgency) + (0.3 × Difficulty) + (0.3 × Behind Factor)
 
 
@@ -85,29 +96,51 @@ Difficulty – Subject complexity rating.
 Behind Factor – Based on previous progress.
 
 📂 Folder Structure
+
 smart-study-scheduler/
+
 │
 ├── backend/
+
 │   ├── main.py
+
 │   ├── ai_engine.py
+
 │   ├── database.py
+
 │   └── models.py
 │
+
 ├── frontend_old/
+
 │   ├── src/
+
 │   │   ├── App.js
+
 │   │   ├── api.js
+
 │   │   └── schedule.js
+
 │   └── public/
+
 │
+
 └── README.md
 
 🧰 Troubleshooting
+
 Issue	Cause	Solution
+
 uvicorn not recognized	Uvicorn not added to PATH	Use python -m uvicorn main:app --reload
+
 CORS/Network Error	Backend not running	Start backend before frontend
+
 No Schedule Generated	Invalid or past exam dates	Add future dates only
+
 Port Conflict	Port 8000 in use	Change port in main.py & api.js
+
+
+ 
 🌱 Future Improvements
 
 📧 Email/SMS reminders for study sessions
@@ -123,10 +156,13 @@ Port Conflict	Port 8000 in use	Change port in main.py & api.js
 👩‍💻 Author
 
 Aakanksha
+
 🎓 B.Tech in Computer Science & Engineering
+
 📍 AI-Powered Smart Study Scheduler (Final Year Project)
 
 💡 Inspired by productivity science, adaptive learning, and time optimization.
 
 ⭐ If you found this project helpful, give it a star on GitHub!
+
 📬 For queries or feedback, feel free to reach out via comments or issues.
